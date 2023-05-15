@@ -1,0 +1,107 @@
+.toppage {
+  background-color: hsl(0, 68%, 58%);
+}
+
+/*header design*/
+.header01{
+  padding: 8px 16px 8px 16px;
+  background-color: hsl(0, 0%, 95%);
+}
+.header02 {
+  padding: 0px 0 10 0;
+  background-color: hsl(0, 0%, 80%);
+}
+
+.header01-title {
+  
+  font-weight: bold;
+  font-size: 40px;
+  -webkit-flex-grow: 1;
+  flex-grow: 1;
+}
+
+.title{
+  margin-top: 8px;
+  margin-bottom: 8px;
+  display:table;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  align-items: center;
+
+}
+@media screen and (min-width:481px) {
+  .header-icon {
+    width: 34%; /*pc用*/
+  }
+}
+@media screen and (max-width:480px) {
+	.header-icon {
+    width: 35%; /*スマホ用*/
+  }
+  p1{
+    text-align: right;
+
+  }
+}
+
+.url {
+  text-decoration:none;
+  color: black;
+  font-weight: bold;
+  font-size: large;
+}
+
+.url :hover {
+  color: black;
+}
+
+
+.header02-list {
+  display: flex;
+  justify-content: left;
+  gap: 32px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 24px;
+  list-style: none;
+}
+
+/*sub header*/
+ul{
+  display: table;
+  padding: 0;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+ul li{
+  display: table-cell;
+  min-width: 50px;
+  
+}
+ul li a{
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  text-decoration: none;
+  color: #555;
+  font-weight: bold;
+}
+
+ul li.current a{
+  color: #555;
+}
+ul li:hover{
+  background-color: #FFF2CC;
+}
+.alert.alert-warning {
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+
